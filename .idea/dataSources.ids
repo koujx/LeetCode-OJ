@@ -1,0 +1,658 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="MySQL - test@localhost" uuid="82eb68f6-20d2-422f-8b80-80bbce522389">
+    <database-info product="MySQL" version="5.6.22" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower"/>
+    <database-model serializer="dbm" rdbms="MYSQL" format-version="2.2">
+      <schema id="1" name="test"/>
+      <table id="2" parent="1" name="access_list"/>
+      <table id="3" parent="1" name="access_policy"/>
+      <table id="4" parent="1" name="admin"/>
+      <table id="5" parent="1" name="behavior"/>
+      <table id="6" parent="1" name="cpi"/>
+      <table id="7" parent="1" name="datainfo"/>
+      <table id="8" parent="1" name="detail"/>
+      <table id="9" parent="1" name="estate"/>
+      <table id="10" parent="1" name="gdp"/>
+      <table id="11" parent="1" name="geo_coord"/>
+      <table id="12" parent="1" name="image"/>
+      <table id="13" parent="1" name="interest"/>
+      <table id="14" parent="1" name="ip_reg"/>
+      <table id="15" parent="1" name="map"/>
+      <table id="16" parent="1" name="next"/>
+      <table id="17" parent="1" name="platformadmin"/>
+      <table id="18" parent="1" name="policy_list"/>
+      <table id="19" parent="1" name="prov"/>
+      <table id="20" parent="1" name="query_getted"/>
+      <table id="21" parent="1" name="query_sended"/>
+      <table id="22" parent="1" name="resume"/>
+      <table id="23" parent="1" name="source"/>
+      <table id="24" parent="1" name="stock"/>
+      <table id="25" parent="1" name="successorinfo"/>
+      <table id="26" parent="1" name="user"/>
+      <table id="27" parent="1" name="user_list"/>
+      <table id="28" parent="1" name="visibility_view"/>
+      <column id="29" parent="2" name="uid">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="30" parent="2" name="pwd">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="31" parent="2" name="name">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="32" parent="2" name="partment">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="33" parent="2" name="position">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="34" parent="2" name="keypath">
+        <data-type>varchar(1024)</data-type>
+      </column>
+      <column id="35" parent="2" name="vip">
+        <data-type>tinyint(1)</data-type>
+      </column>
+      <column id="36" parent="2" name="ip">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="37" parent="2" name="longitude">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="38" parent="2" name="latitude">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="39" parent="2" name="mobile">
+        <data-type>tinyint(1)</data-type>
+      </column>
+      <column id="40" parent="2" name="behavior_level">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="41" parent="2" name="failure_login_attempts">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="42" parent="2" name="success_login_count">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="43" parent="2" name="last_access_time">
+        <data-type>timestamp</data-type>
+      </column>
+      <key id="44" parent="2" name="PRIMARY">
+        <columns>uid</columns>
+        <primary>1</primary>
+      </key>
+      <column id="45" parent="3" name="dataid">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="46" parent="3" name="attributes">
+        <data-type>varchar(1000)</data-type>
+      </column>
+      <column id="47" parent="3" name="vectors">
+        <data-type>varchar(1000)</data-type>
+      </column>
+      <column id="48" parent="3" name="row">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="49" parent="3" name="column">
+        <data-type>int(11)</data-type>
+      </column>
+      <key id="50" parent="3" name="PRIMARY">
+        <columns>dataid</columns>
+        <primary>1</primary>
+      </key>
+      <column id="51" parent="4" name="admin_id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="52" parent="4" name="adminName">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="53" parent="4" name="password">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <key id="54" parent="4" name="PRIMARY">
+        <columns>admin_id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="55" parent="5" name="uid">
+        <mandatory>1</mandatory>
+        <data-type>int(255)</data-type>
+      </column>
+      <column id="56" parent="5" name="trust">
+        <data-type>double</data-type>
+      </column>
+      <column id="57" parent="5" name="reward_factor">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="58" parent="5" name="punish_factor">
+        <data-type>int(11)</data-type>
+      </column>
+      <key id="59" parent="5" name="PRIMARY">
+        <columns>uid</columns>
+        <primary>1</primary>
+      </key>
+      <column id="60" parent="6" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(255)</data-type>
+      </column>
+      <column id="61" parent="6" name="year">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="62" parent="6" name="month">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="63" parent="6" name="cpi">
+        <data-type>float</data-type>
+      </column>
+      <column id="64" parent="6" name="estateCPI">
+        <data-type>float</data-type>
+      </column>
+      <key id="65" parent="6" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="66" parent="7" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="67" parent="7" name="dataID">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="68" parent="7" name="base_N">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="69" parent="7" name="table_N">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="70" parent="7" name="type">
+        <comment>1: 表示表格，2：表示压缩包，3：其他</comment>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="71" parent="7" name="published">
+        <comment>该数据是否发布</comment>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="72" parent="7" name="aggregation">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="73" parent="7" name="succeed">
+        <data-type>int(11)</data-type>
+      </column>
+      <key id="74" parent="7" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="75" parent="8" name="dataID">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="76" parent="8" name="name">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="77" parent="8" name="visibility">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="78" parent="8" name="type">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="79" parent="8" name="securityLevel">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="80" parent="8" name="description">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="81" parent="8" name="time">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <key id="82" parent="8" name="PRIMARY">
+        <columns>dataID</columns>
+        <primary>1</primary>
+      </key>
+      <column id="83" parent="9" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(255)</data-type>
+      </column>
+      <column id="84" parent="9" name="year">
+        <data-type>int(255)</data-type>
+      </column>
+      <column id="85" parent="9" name="month">
+        <data-type>int(255)</data-type>
+      </column>
+      <column id="86" parent="9" name="total">
+        <data-type>float</data-type>
+      </column>
+      <column id="87" parent="9" name="rise">
+        <data-type>float</data-type>
+      </column>
+      <key id="88" parent="9" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="89" parent="10" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="90" parent="10" name="quarter">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="91" parent="10" name="GDP_Abs">
+        <data-type>double</data-type>
+      </column>
+      <column id="92" parent="10" name="GDP_rise">
+        <data-type>double</data-type>
+      </column>
+      <column id="93" parent="10" name="first_industry_abs">
+        <data-type>double</data-type>
+      </column>
+      <column id="94" parent="10" name="first_industry_rise">
+        <data-type>double</data-type>
+      </column>
+      <column id="95" parent="10" name="second_industry_abs">
+        <data-type>double</data-type>
+      </column>
+      <column id="96" parent="10" name="second_industry_rise">
+        <data-type>double</data-type>
+      </column>
+      <column id="97" parent="10" name="thrid_industry_abs">
+        <data-type>double</data-type>
+      </column>
+      <column id="98" parent="10" name="thrid_industry_rise">
+        <data-type>double</data-type>
+      </column>
+      <key id="99" parent="10" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="100" parent="11" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="101" parent="11" name="points">
+        <comment>格式:x1,y1 x2,y2 x3,y3 x1,y1;x1,y1 x2,y2 x3,y3 x1,y1</comment>
+        <mandatory>1</mandatory>
+        <data-type>text</data-type>
+      </column>
+      <column id="102" parent="11" name="description">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="103" parent="11" name="weight">
+        <mandatory>1</mandatory>
+        <data-type>double</data-type>
+      </column>
+      <key id="104" parent="11" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="105" parent="12" name="imageID">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="106" parent="12" name="image">
+        <data-type>blob</data-type>
+      </column>
+      <key id="107" parent="12" name="PRIMARY">
+        <columns>imageID</columns>
+        <primary>1</primary>
+      </key>
+      <column id="108" parent="13" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="109" parent="13" name="year">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="110" parent="13" name="month">
+        <data-type>int(255)</data-type>
+      </column>
+      <column id="111" parent="13" name="bank">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="112" parent="13" name="three_month">
+        <data-type>float</data-type>
+      </column>
+      <column id="113" parent="13" name="six_month">
+        <data-type>float</data-type>
+      </column>
+      <column id="114" parent="13" name="one_year">
+        <data-type>float</data-type>
+      </column>
+      <column id="115" parent="13" name="two_year">
+        <data-type>float</data-type>
+      </column>
+      <column id="116" parent="13" name="three_year">
+        <data-type>float</data-type>
+      </column>
+      <column id="117" parent="13" name="five_year">
+        <data-type>float</data-type>
+      </column>
+      <key id="118" parent="13" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="119" parent="14" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="120" parent="14" name="name">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="121" parent="14" name="partment">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="122" parent="14" name="regexp">
+        <mandatory>1</mandatory>
+        <data-type>varchar(1000)</data-type>
+      </column>
+      <column id="123" parent="14" name="description">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <key id="124" parent="14" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="125" parent="15" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="126" parent="15" name="keyID">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="127" parent="15" name="valueID">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <key id="128" parent="15" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="129" parent="16" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="130" parent="16" name="dataID">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="131" parent="16" name="next">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="132" parent="16" name="URL">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <key id="133" parent="16" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="134" parent="17" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="135" parent="17" name="platformName">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="136" parent="17" name="queryURL">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="137" parent="17" name="email">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="138" parent="17" name="password">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <key id="139" parent="17" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="140" parent="18" name="pid">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="141" parent="18" name="policy">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="142" parent="18" name="description">
+        <data-type>varchar(10000)</data-type>
+      </column>
+      <key id="143" parent="18" name="PRIMARY">
+        <columns>pid</columns>
+        <primary>1</primary>
+      </key>
+      <column id="144" parent="19" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="145" parent="19" name="prefix">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="146" parent="19" name="entity">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="147" parent="19" name="activity">
+        <mandatory>1</mandatory>
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="148" parent="19" name="agent">
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="149" parent="19" name="used">
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="150" parent="19" name="time">
+        <data-type>varchar(45)</data-type>
+      </column>
+      <key id="151" parent="19" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="152" parent="20" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="153" parent="20" name="query_for">
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="154" parent="20" name="query_from">
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="155" parent="20" name="report_url">
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="156" parent="20" name="request_id">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="157" parent="20" name="dataID">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="158" parent="20" name="visibility">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <key id="159" parent="20" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="160" parent="21" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="161" parent="21" name="query_for">
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="162" parent="21" name="query_from">
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="163" parent="21" name="report_url">
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="164" parent="21" name="request_id">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="165" parent="21" name="dataID">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="166" parent="21" name="visibility">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <key id="167" parent="21" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="168" parent="22" name="user_id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="169" parent="22" name="name">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="170" parent="22" name="sex">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="171" parent="22" name="age">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="172" parent="22" name="birthday">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="173" parent="22" name="IDCard">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="174" parent="22" name="phoneNumber">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="175" parent="22" name="email">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="176" parent="22" name="image">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <key id="177" parent="22" name="PRIMARY">
+        <columns>user_id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="178" parent="23" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="179" parent="23" name="dataID">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="180" parent="23" name="source">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="181" parent="23" name="URL">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <key id="182" parent="23" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="183" parent="24" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="184" parent="24" name="stockCode">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="185" parent="24" name="today_in">
+        <data-type>float</data-type>
+      </column>
+      <column id="186" parent="24" name="yesterday_out">
+        <data-type>float</data-type>
+      </column>
+      <column id="187" parent="24" name="time">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <key id="188" parent="24" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="189" parent="25" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="190" parent="25" name="ancestor">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="191" parent="25" name="successor">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <key id="192" parent="25" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="193" parent="26" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(4)</data-type>
+      </column>
+      <column id="194" parent="26" name="name">
+        <mandatory>1</mandatory>
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="195" parent="26" name="password">
+        <mandatory>1</mandatory>
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="196" parent="26" name="email">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="197" parent="26" name="behaviorLevel">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="198" parent="26" name="securityLevel">
+        <data-type>int(11)</data-type>
+      </column>
+      <key id="199" parent="26" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="200" parent="27" name="uid">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="201" parent="27" name="name">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="202" parent="27" name="partment">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="203" parent="27" name="pwd">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="204" parent="27" name="position">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <key id="205" parent="27" name="PRIMARY">
+        <columns>uid</columns>
+        <primary>1</primary>
+      </key>
+      <column id="206" parent="28" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="207" parent="28" name="name">
+        <comment>格式:x1,y1 x2,y2 x3,y3 x1,y1;x1,y1 x2,y2 x3,y3 x1,y1</comment>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="208" parent="28" name="description">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <key id="209" parent="28" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+    </database-model>
+  </data-source>
+</component>
