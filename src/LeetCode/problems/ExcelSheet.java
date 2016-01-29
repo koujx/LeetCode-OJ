@@ -5,6 +5,13 @@ import static LeetCode.util.Reverse.stringReverse;
 /**
  * Created by koujx on 2016/1/22.
  * excel sheet column number&title
+ * 1 -> A
+ * 2 -> B
+ * 3 -> C
+ * ...
+ * 26 -> Z
+ * 27 -> AA
+ * 28 -> AB
  */
 public class ExcelSheet {
     //171. Excel Sheet Column Number

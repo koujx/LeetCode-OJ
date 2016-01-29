@@ -28,7 +28,7 @@ public class MajorityElement {
         return majorE;
     }
 
-/*有序数组的中位数为majority element
+/*鏈夊簭鏁扮粍鐨勪腑浣嶆暟灏辨槸为majority element
     public int majorityElement(int[] nums){
         int length = nums.length;
         if (length==1) return nums[0];

@@ -1,7 +1,6 @@
 package LeetCode.test;
 
 import LeetCode.problems.*;
-import LeetCode.util.ListNode;
 
 /**
  * Created by koujx on 2016/1/22.
@@ -14,13 +13,17 @@ public class test {
     private static RemoveElements re = new RemoveElements();
     private static MoveZeroes mz = new MoveZeroes();
     private static Anagram ana = new Anagram();
+    private static ContainsDuplicate cd = new ContainsDuplicate();
 
     public static void main(String[] args) {
-        ListNode head = new ListNode(1);
+/*        ListNode head = new ListNode(1);
         ListNode r = re.removeElements(head, 1);
         String s = "aaa";
         String t = "";
-        System.out.println(ana.isAnagram(s, t));
+        System.out.println(ana.isAnagram(s, t));*/
+
+        int[] nums = {};
+        System.out.println(cd.containsDuplicate(nums));
 //        while (r != null) System.out.println(r.val + "->");
 //        int[] num = {0, 0, 4, 0, 2, 1, 0, 3, 12};
 //        mz.moveZeroes(num);

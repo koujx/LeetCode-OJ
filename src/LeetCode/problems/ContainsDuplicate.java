@@ -11,7 +11,7 @@ import java.util.Arrays;
 public class ContainsDuplicate {
 
     public boolean containsDuplicate(int[] nums) {
-        int length = nums.length;//比直接使用nums.length的时间开销减小
+        int length = nums.length;//姣旂洿鎺ヤ娇鐢╪ums.length鐨勬椂闂村紑閿�鍑忓皬
         if (length <= 1) return false;
         Arrays.sort(nums);
         for (int i = 0; i < length; i++) {

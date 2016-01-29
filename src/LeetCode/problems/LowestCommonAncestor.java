@@ -5,9 +5,9 @@ import LeetCode.util.TreeNode;
 /**
  * created by koujx on 2016/1/28.
  * #235. Lowest Common Ancestor of a Binary Search Tree
- * Given a binary search tree (BST-¶ş²æÅÅĞòÊ÷), find the lowest common ancestor (LCA) of two given nodes in the BST.
- * According to the definition of LCA on Wikipedia: ¡°The lowest common ancestor is defined between two nodes v and w
- * as the lowest node in T that has both v and w as descendants (where we allow a node to be a descendant of itself).¡±
+ * Given a binary search tree (BST-äºŒå‰æœ‰åºæ ‘), find the lowest common ancestor (LCA) of two given nodes in the BST.
+ * According to the definition of LCA on Wikipedia: ï¿½ï¿½The lowest common ancestor is defined between two nodes v and w
+ * as the lowest node in T that has both v and w as descendants (where we allow a node to be a descendant of itself).ï¿½ï¿½
  * -------------6
  * -----------/   \
  * ----------2     8
