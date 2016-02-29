@@ -14,6 +14,7 @@ public class test {
     private static MoveZeroes mz = new MoveZeroes();
     private static Anagram ana = new Anagram();
     private static ContainsDuplicate cd = new ContainsDuplicate();
+    private static NumberOf1Bits numbers = new NumberOf1Bits();
 
     public static void main(String[] args) {
 /*        ListNode head = new ListNode(1);
@@ -21,9 +22,9 @@ public class test {
         String s = "aaa";
         String t = "";
         System.out.println(ana.isAnagram(s, t));*/
-
-        int[] nums = {};
-        System.out.println(cd.containsDuplicate(nums));
+        System.out.println(numbers.hammingWeight(7));
+//        int[] nums = {};
+//        System.out.println(cd.containsDuplicate(nums));
 //        while (r != null) System.out.println(r.val + "->");
 //        int[] num = {0, 0, 4, 0, 2, 1, 0, 3, 12};
 //        mz.moveZeroes(num);
