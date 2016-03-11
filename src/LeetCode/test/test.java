@@ -1,6 +1,10 @@
 package LeetCode.test;
 
 import LeetCode.problems.*;
+import LeetCode.util.ListNode;
+
+import java.util.Calendar;
+import java.util.Date;
 
 /**
  * Created by koujx on 2016/1/22.
@@ -8,21 +12,47 @@ import LeetCode.problems.*;
  */
 
 public class test {
-    private static ExcelSheet sheet = new ExcelSheet();
-    private static NimGame nimGame = new NimGame();
-    private static RemoveElements re = new RemoveElements();
-    private static MoveZeroes mz = new MoveZeroes();
-    private static Anagram ana = new Anagram();
-    private static ContainsDuplicate cd = new ContainsDuplicate();
-    private static NumberOf1Bits numbers = new NumberOf1Bits();
+	private static ExcelSheet sheet = new ExcelSheet();
+	private static NimGame nimGame = new NimGame();
+	private static RemoveElements re = new RemoveElements();
+	private static MoveZeroes mz = new MoveZeroes();
+	private static Anagram ana = new Anagram();
+	private static ContainsDuplicate cd = new ContainsDuplicate();
+	private static NumberOf1Bits numbers = new NumberOf1Bits();
+	private static Date date = new Date();
+	private static Calendar calendar;
 
-    public static void main(String[] args) {
+	public static void main(String[] args) {
 /*        ListNode head = new ListNode(1);
-        ListNode r = re.removeElements(head, 1);
+		ListNode r = re.removeElements(head, 1);
         String s = "aaa";
         String t = "";
         System.out.println(ana.isAnagram(s, t));*/
-        System.out.println(numbers.hammingWeight(7));
+
+		ListNode head = null;
+		ListNode p = null;
+		ListNode pNext;
+
+		for (int i = 1; i <= 10; i++) {
+			pNext = new ListNode(i);
+			if (head == null) {
+				head = pNext;
+				p = pNext;
+			} else {
+				p.next = pNext;
+				p = pNext;
+			}
+		}
+
+/*		long start1 = System.currentTimeMillis();
+		new ClimbingStairs().climbStairs1(43);
+		long stop1 = System.currentTimeMillis();
+		long start2 = System.currentTimeMillis();
+		new ClimbingStairs().climbStairs2(43);
+		long stop2 = System.currentTimeMillis();
+		System.out.println(stop1-start1);
+		System.out.println(stop2-start2);*/
+
 //        int[] nums = {};
 //        System.out.println(cd.containsDuplicate(nums));
 //        while (r != null) System.out.println(r.val + "->");
@@ -38,7 +68,7 @@ public class test {
 //        }
 //        System.out.println(sheet.titleToNumber("s"));
 
-        //        //66. Plus One
+		//        //66. Plus One
 //        int[] num = new int[10];
 //        for (int i = 0; i < 10; i++) {
 //            num[i] = (int) (Math.random() * 10);
@@ -48,53 +78,50 @@ public class test {
 //        String a = "110";
 //        String b = "1";
 //        System.out.println(code.addBinary(a, b));
-//
 
-/*		*//*2.Add Two Numbers
-         * ListNode
-		 *//*
-    ListNode l1 = new ListNode(0);
-    ListNode l2 = new ListNode(0);
-    ListNode p1 = new ListNode(0);
-    ListNode p2 = new ListNode(0);
-    ListNode temp1 = new ListNode(0);
-    ListNode temp2 = new ListNode(0);
-    int d1 = 55;
-    int d2 = 45;
+/*		//Add Two Number ListNode
+		ListNode l1 = new ListNode(0);
+		ListNode l2 = new ListNode(0);
+		ListNode p1 = new ListNode(0);
+		ListNode p2 = new ListNode(0);
+		ListNode temp1 = new ListNode(0);
+		ListNode temp2 = new ListNode(0);
+		int d1 = 55;
+		int d2 = 45;
 
-    l1=p1;
-    l2=p2;
-    while((d1/10)!=0)
-    ListNode l = addTwoNumbers(l1, l2);
+		l1 = p1;
+		l2 = p2;
+		while ((d1 / 10) != 0)
+			ListNode l = addTwoNumbers(l1, l2);
 
-    p1.val=d1%10;
-    while((d2/10)!=0)
+		p1.val = d1 % 10;
+		while ((d2 / 10) != 0)
 
-    {
-        p1.val = d1 % 10;
-        p1.next = new ListNode(0);
-        temp1.val = p1.val;
-        p1 = p1.next;
-        d1 /= 10;
-    }
+		{
+			p1.val = d1 % 10;
+			p1.next = new ListNode(0);
+			temp1.val = p1.val;
+			p1 = p1.next;
+			d1 /= 10;
+		}
 
-    p2.val=d2%10;
+		p2.val = d2 % 10;
 
-    {
-        p2.val = d2 % 10;
-        p2.next = new ListNode(0);
-        temp2.val = p2.val;
-        p2 = p2.next;
-        d2 /= 10;
-    }
-    while(l.next!=null)
+		{
+			p2.val = d2 % 10;
+			p2.next = new ListNode(0);
+			temp2.val = p2.val;
+			p2 = p2.next;
+			d2 /= 10;
+		}
+		while (l.next != null)
 
-    {
-        System.out.print(l.val + "->");
-        l = l.next;
-    }
+		{
+			System.out.print(l.val + "->");
+			l = l.next;
+		}
 
-    System.out.println(l.val);*/
+		System.out.println(l.val);*/
 
 //        String s = "  ";
 //        System.out.println(ojtest.lengthOfLongestSubstring(s));
@@ -114,5 +141,5 @@ public class test {
 //            }
 //            System.out.println(i + ":" + string);
 //        }
-    }
+	}
 }
