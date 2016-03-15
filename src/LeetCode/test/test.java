@@ -1,7 +1,7 @@
 package LeetCode.test;
 
 import LeetCode.problems.*;
-import LeetCode.util.ListNode;
+import LeetCode.util.MyQueue;
 
 import java.util.Calendar;
 import java.util.Date;
@@ -21,28 +21,23 @@ public class test {
 	private static NumberOf1Bits numbers = new NumberOf1Bits();
 	private static Date date = new Date();
 	private static Calendar calendar;
+	private static MyQueue queue = new MyQueue();
 
 	public static void main(String[] args) {
+		for (int i = 1; i < 20; i++) {
+			queue.push(i);
+		}
+		System.out.println("whether is empty:" + queue.empty());
+		for (int i = 1; i < 6; i++) {
+			queue.pop();
+		}
+
+		System.out.println("first element is " + queue.peek());
 /*        ListNode head = new ListNode(1);
 		ListNode r = re.removeElements(head, 1);
         String s = "aaa";
         String t = "";
         System.out.println(ana.isAnagram(s, t));*/
-
-		ListNode head = null;
-		ListNode p = null;
-		ListNode pNext;
-
-		for (int i = 1; i <= 10; i++) {
-			pNext = new ListNode(i);
-			if (head == null) {
-				head = pNext;
-				p = pNext;
-			} else {
-				p.next = pNext;
-				p = pNext;
-			}
-		}
 
 /*		long start1 = System.currentTimeMillis();
 		new ClimbingStairs().climbStairs1(43);
