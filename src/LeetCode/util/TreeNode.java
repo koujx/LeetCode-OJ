@@ -9,9 +9,14 @@ public class TreeNode {
 	public int val;
 	public TreeNode left;
 	public TreeNode right;
+	public ArrayList nodeList;
 
-	TreeNode(int x) {
+	public TreeNode(int x) {
 		val = x;
+	}
+
+	public TreeNode(ArrayList list) {
+		this.nodeList = list;
 	}
 
 
@@ -99,8 +104,9 @@ public class TreeNode {
 	public boolean isSymmetric(TreeNode root) {
 		if (root == null) return true;
 		if (root.left == root.right) return true;
-		ArrayList<Integer> valList = new ArrayList();
-		LNR(root, valList);
+		ArrayList valList = new ArrayList();
+		TreeNode tree = new TreeNode(valList);
+		tree.LNR(root);
 		int l = valList.size();
 		if (l % 2 == 0) return false;
 		else {
@@ -113,49 +119,36 @@ public class TreeNode {
 	}
 
 	//中序遍历
-	public void LNR(TreeNode root, ArrayList<Integer> list) {
-		if (root == null) return;
-		else {
-			if (root.left != null)
-				list.add(root.left.val);
-			list.add(root.val);
-			if (root.right != null)
-				list.add(root.right.val);
-			return;
-		}
-	}
-
-	void visit(TreeNode node) {
-		System.out.println(node.val);
-	}
-
-	//先序遍历
-	public void NLR(TreeNode root) {
-		if (root == null) return;
-		else {
-			visit(root);
-			visit(root.left);
-			visit(root.right);
-		}
-	}
-
-	//后序遍历
-	public void LRN(TreeNode root) {
-		if (root == null) return;
-		else {
-			visit(root.left);
-			visit(root.right);
-			visit(root);
-		}
-	}
-
-	//中序遍历
 	public void LNR(TreeNode root) {
-		if (root == null) return;
-		else {
-			visit(root.left);
-			visit(root);
-			visit(root.right);
+		if (root == null) {
+			this.nodeList.add(null);
+		} else {
+			if (root.left == null && root.right == null) {
+				this.nodeList.add(root.val);
+			} else {
+				LNR(root.left);
+				this.nodeList.add(root.val);
+				LNR(root.right);
+			}
 		}
 	}
+//	//先序遍历
+//	public void NLR(TreeNode root) {
+//		if (root == null) return;
+//		else {
+//			visit(root);
+//			visit(root.left);
+//			visit(root.right);
+//		}
+//	}
+//
+//	//后序遍历
+//	public void LRN(TreeNode root) {
+//		if (root == null) return;
+//		else {
+//			visit(root.left);
+//			visit(root.right);
+//			visit(root);
+//		}
+//	}
 }

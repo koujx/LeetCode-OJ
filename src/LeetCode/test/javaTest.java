@@ -1,21 +1,25 @@
 package LeetCode.test;
 
-import java.io.IOException;
-import java.util.ArrayList;
-
 /**
  * created by koujx on 2016/2/29.
  */
 public class javaTest {
-    static ArrayList list;
+	public static void main(String[] args) {
+//		ArrayList list = new ArrayList();
+//		Solution sol = new Solution(list);
+//		sol.test();
+//		for (Object aList : list) {
+//			System.out.println(aList);
+//		}
 
-	public static void main(String[] args) throws IOException {
-		for (int i = 0; i < 20; i++) {
-			abc(i);
-		}
-		System.out.println("list's size="+ list.size());
-	}
-	static void abc(int i){
-		list.add(i);
+		System.out.println(new Integer(0) == null);
+		boolean b = !true && (true == true ? false : true);
+		System.out.println(b);
+
+		String s1 = "abc";
+		String s2 = new String("abc");
+		String s3 = new String(s1);
+		String s4 = s2;
+		System.out.println(s1==s3);
 	}
 }
