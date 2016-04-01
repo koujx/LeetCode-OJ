@@ -4,8 +4,8 @@ package LeetCode.test;
  * created by koujx on 2016/2/29.
  */
 public class javaTest {
-	public static void main(String[] args) {
-//		ArrayList list = new ArrayList();
+    public static void main(String[] args) {
+/*//		ArrayList list = new ArrayList();
 //		Solution sol = new Solution(list);
 //		sol.test();
 //		for (Object aList : list) {
@@ -20,6 +20,8 @@ public class javaTest {
 		String s2 = new String("abc");
 		String s3 = new String(s1);
 		String s4 = s2;
-		System.out.println(s1==s3);
-	}
+		System.out.println(s1==s3);*/
+
+
+    }
 }

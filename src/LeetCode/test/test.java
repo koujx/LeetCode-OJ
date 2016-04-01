@@ -1,6 +1,6 @@
 package LeetCode.test;
 
-import LeetCode.problems.*;
+import LeetCode.problems.leetcode.*;
 import LeetCode.util.MyQueue;
 
 import java.util.Calendar;
