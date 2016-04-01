@@ -4,63 +4,8 @@
     <bookmark url="file://$PROJECT_DIR$/src/LeetCode/problems/leetCode/HouseRober.java" description="public class HouseRober {&#10;&#9;public int rob(int[] nu..." line="11" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8fea5a91-e63e-49b2-87c6-a0b55dc48220" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/LeetCode/test/Example.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LeetCode-OJ/LeetCode/problems/AddBinary.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LeetCode-OJ/LeetCode/problems/AddDigits.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LeetCode-OJ/LeetCode/problems/AddTwoNumbers.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LeetCode-OJ/LeetCode/problems/Anagram.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LeetCode-OJ/LeetCode/problems/Convert.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LeetCode-OJ/LeetCode/problems/DeleteNode.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LeetCode-OJ/LeetCode/problems/ExcelSheet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LeetCode-OJ/LeetCode/problems/HappyNumber.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LeetCode-OJ/LeetCode/problems/InvertTree.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LeetCode-OJ/LeetCode/problems/LengthOfLongestSubstring.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LeetCode-OJ/LeetCode/problems/MaximumDepthofBinaryTree.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LeetCode-OJ/LeetCode/problems/MoveZeroes.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LeetCode-OJ/LeetCode/problems/MultiplyStrings.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LeetCode-OJ/LeetCode/problems/NimGame.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LeetCode-OJ/LeetCode/problems/OddEvenLinkedList.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LeetCode-OJ/LeetCode/problems/PlusOne.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LeetCode-OJ/LeetCode/problems/PowerOfNumbers.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LeetCode-OJ/LeetCode/problems/RemoveElements.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LeetCode-OJ/LeetCode/problems/Reverse.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LeetCode-OJ/LeetCode/problems/TwoSum.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LeetCode-OJ/LeetCode/problems/UglyNumber.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/LeetCode/test/Solution.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LeetCode-OJ/LeetCode/test/test.class" afterPath="$PROJECT_DIR$/out/production/LeetCode-OJ/LeetCode/test/test.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LeetCode-OJ/LeetCode/util/TreeNode.class" afterPath="$PROJECT_DIR$/out/production/LeetCode-OJ/LeetCode/util/TreeNode.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+    <list default="true" id="8fea5a91-e63e-49b2-87c6-a0b55dc48220" name="Default" comment="2016.4.1&#10;hihoCoder&#10;leetCode&#10;niuke">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/LeetCode/test/javaTest.java" afterPath="$PROJECT_DIR$/src/LeetCode/test/javaTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/LeetCode/test/test.java" afterPath="$PROJECT_DIR$/src/LeetCode/test/test.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/LeetCode/problems/AddBinary.java" afterPath="$PROJECT_DIR$/src/LeetCode/problems/leetcode/AddBinary.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/LeetCode/problems/AddDigits.java" afterPath="$PROJECT_DIR$/src/LeetCode/problems/leetcode/AddDigits.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/LeetCode/problems/AddTwoNumbers.java" afterPath="$PROJECT_DIR$/src/LeetCode/problems/leetcode/AddTwoNumbers.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/LeetCode/problems/Anagram.java" afterPath="$PROJECT_DIR$/src/LeetCode/problems/leetcode/Anagram.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/LeetCode/problems/ContainsDuplicate.java" afterPath="$PROJECT_DIR$/src/LeetCode/problems/leetcode/ContainsDuplicate.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/LeetCode/problems/Convert.java" afterPath="$PROJECT_DIR$/src/LeetCode/problems/leetcode/Convert.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/LeetCode/problems/DeleteNode.java" afterPath="$PROJECT_DIR$/src/LeetCode/problems/leetcode/DeleteNode.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/LeetCode/problems/ExcelSheet.java" afterPath="$PROJECT_DIR$/src/LeetCode/problems/leetcode/ExcelSheet.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/LeetCode/problems/HappyNumber.java" afterPath="$PROJECT_DIR$/src/LeetCode/problems/leetcode/HappyNumber.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/LeetCode/problems/InvertTree.java" afterPath="$PROJECT_DIR$/src/LeetCode/problems/leetcode/InvertTree.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/LeetCode/problems/LengthOfLongestSubstring.java" afterPath="$PROJECT_DIR$/src/LeetCode/problems/leetcode/LengthOfLongestSubstring.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/LeetCode/problems/LowestCommonAncestor.java" afterPath="$PROJECT_DIR$/src/LeetCode/problems/leetcode/LowestCommonAncestor.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/LeetCode/problems/MajorityElement.java" afterPath="$PROJECT_DIR$/src/LeetCode/problems/leetcode/MajorityElement.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/LeetCode/problems/MaximumDepthofBinaryTree.java" afterPath="$PROJECT_DIR$/src/LeetCode/problems/leetcode/MaximumDepthofBinaryTree.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/LeetCode/problems/MoveZeroes.java" afterPath="$PROJECT_DIR$/src/LeetCode/problems/leetcode/MoveZeroes.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/LeetCode/problems/MultiplyStrings.java" afterPath="$PROJECT_DIR$/src/LeetCode/problems/leetcode/MultiplyStrings.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/LeetCode/problems/NimGame.java" afterPath="$PROJECT_DIR$/src/LeetCode/problems/leetcode/NimGame.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/LeetCode/problems/OddEvenLinkedList.java" afterPath="$PROJECT_DIR$/src/LeetCode/problems/leetcode/OddEvenLinkedList.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/LeetCode/problems/PlusOne.java" afterPath="$PROJECT_DIR$/src/LeetCode/problems/leetcode/PlusOne.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/LeetCode/problems/PowerOfNumbers.java" afterPath="$PROJECT_DIR$/src/LeetCode/problems/leetcode/PowerOfNumbers.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/LeetCode/problems/RemoveElements.java" afterPath="$PROJECT_DIR$/src/LeetCode/problems/leetcode/RemoveElements.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/LeetCode/problems/Reverse.java" afterPath="$PROJECT_DIR$/src/LeetCode/problems/leetcode/Reverse.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/LeetCode/problems/ReverseLinkedList.java" afterPath="$PROJECT_DIR$/src/LeetCode/problems/leetcode/ReverseLinkedList.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/LeetCode/problems/RomanNumbers.java" afterPath="$PROJECT_DIR$/src/LeetCode/problems/leetcode/RomanNumbers.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/LeetCode/problems/TwoSum.java" afterPath="$PROJECT_DIR$/src/LeetCode/problems/leetcode/TwoSum.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/LeetCode/problems/UglyNumber.java" afterPath="$PROJECT_DIR$/src/LeetCode/problems/leetcode/UglyNumber.java" />
     </list>
     <ignored path="AccessControlCenter.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -113,8 +58,8 @@
       <file leaf-file-name="SwapPairs.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/LeetCode/problems/leetCode/SwapPairs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.432">
-              <caret line="24" column="44" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
+            <state vertical-scroll-proportion="0.44486693">
+              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -448,6 +393,22 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="ignore_missing_gitignore" value="true" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="46" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="50" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="53" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="451" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="46" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="50" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="53" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="451" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -1052,7 +1013,7 @@
       <workItem from="1459316658306" duration="10075000" />
       <workItem from="1459385218312" duration="4513000" />
       <workItem from="1459389822332" duration="7796000" />
-      <workItem from="1459471802140" duration="2815000" />
+      <workItem from="1459471802140" duration="5596000" />
     </task>
     <task id="LOCAL-00001" summary="aaa">
       <created>1453856816668</created>
@@ -1120,11 +1081,17 @@
       <option name="project" value="LOCAL" />
       <updated>1458526306469</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="2016.4.1&#10;hihoCoder&#10;leetCode&#10;niuke">
+      <created>1459475153715</created>
+      <option name="number" value="00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1459475153715</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="207192000" />
+    <option name="totallyTimeSpent" value="209973000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1137,16 +1104,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32841823" sideWeight="0.54" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32841823" sideWeight="0.4807143" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2922252" sideWeight="0.46785715" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25737265" sideWeight="0.54" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25871313" sideWeight="0.46571428" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2922252" sideWeight="0.5321429" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25737265" sideWeight="0.46" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2922252" sideWeight="0.5321429" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.50285715" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.235" sideWeight="0.48393574" order="0" side_tool="false" content_ui="combo" />
@@ -1228,7 +1195,8 @@
     <MESSAGE value="2016.3.11" />
     <MESSAGE value="2016.3.15" />
     <MESSAGE value="2016.3.18" />
-    <option name="LAST_COMMIT_MESSAGE" value="2016.3.18" />
+    <MESSAGE value="2016.4.1&#10;hihoCoder&#10;leetCode&#10;niuke" />
+    <option name="LAST_COMMIT_MESSAGE" value="2016.4.1&#10;hihoCoder&#10;leetCode&#10;niuke" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1611,8 +1579,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LeetCode/problems/leetCode/SwapPairs.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.432">
-          <caret line="24" column="44" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
+        <state vertical-scroll-proportion="0.44486693">
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
           <folding />
         </state>
       </provider>
