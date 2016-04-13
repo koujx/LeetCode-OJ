@@ -15,5 +15,6 @@ public class EnumWeekTest {
             System.out.println("Abbreviation : "+week.getAbbr());
             System.out.println("----------------------");
         }
+        System.out.println(Week.MONDAY);
     }
 }

@@ -16,6 +16,7 @@ public enum Week {
 
     private Week(String abbr){
         this.abbr = abbr;
+        System.out.println(this.abbr);
     }
 
     public String getAbbr(){

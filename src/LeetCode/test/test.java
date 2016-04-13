@@ -1,8 +1,6 @@
 package LeetCode.test;
 
-import LeetCode.problems.leetcode.*;
 import LeetCode.util.MyQueue;
-
 import java.util.Calendar;
 import java.util.Date;
 
@@ -12,29 +10,18 @@ import java.util.Date;
  */
 
 public class test {
-	private static ExcelSheet sheet = new ExcelSheet();
-	private static NimGame nimGame = new NimGame();
-	private static RemoveElements re = new RemoveElements();
-	private static MoveZeroes mz = new MoveZeroes();
-	private static Anagram ana = new Anagram();
-	private static ContainsDuplicate cd = new ContainsDuplicate();
-	private static NumberOf1Bits numbers = new NumberOf1Bits();
-	private static Date date = new Date();
-	private static Calendar calendar;
-	private static MyQueue queue = new MyQueue();
+    private static Date date = new Date();
+    private static Calendar calendar;
+    private static MyQueue queue = new MyQueue();
 
-	public static void main(String[] args) {
-		for (int i = 1; i < 20; i++) {
-			queue.push(i);
-		}
-		System.out.println("whether is empty:" + queue.empty());
-		for (int i = 1; i < 6; i++) {
-			queue.pop();
-		}
+    public static void main(String[] args) {
 
-		System.out.println("first element is " + queue.peek());
+        int a = 5;
+        int b = 8;
+        int c = 5&8;
+        System.out.println(8&1);
 /*        ListNode head = new ListNode(1);
-		ListNode r = re.removeElements(head, 1);
+        ListNode r = re.removeElements(head, 1);
         String s = "aaa";
         String t = "";
         System.out.println(ana.isAnagram(s, t));*/
@@ -63,7 +50,7 @@ public class test {
 //        }
 //        System.out.println(sheet.titleToNumber("s"));
 
-		//        //66. Plus One
+        //        //66. Plus One
 //        int[] num = new int[10];
 //        for (int i = 0; i < 10; i++) {
 //            num[i] = (int) (Math.random() * 10);
@@ -136,5 +123,5 @@ public class test {
 //            }
 //            System.out.println(i + ":" + string);
 //        }
-	}
+    }
 }
