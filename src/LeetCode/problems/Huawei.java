@@ -1,11 +1,11 @@
-package LeetCode.test;
+package LeetCode.problems;
 
 import java.util.Scanner;
 
 /**
  * Created by koujx on 2016/4/13.
  */
-public class Main {
+public class Huawei {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         while (in.hasNext()) {
