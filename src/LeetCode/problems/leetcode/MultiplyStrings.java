@@ -1,4 +1,4 @@
-package LeetCode.problems.leetcode;
+package LeetCode.problems.leetCode;
 
 import static LeetCode.util.Reverse.stringReverse;
 import static java.lang.String.*;

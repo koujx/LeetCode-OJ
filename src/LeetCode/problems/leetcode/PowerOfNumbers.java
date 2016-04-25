@@ -1,4 +1,4 @@
-package LeetCode.problems.leetcode;
+package LeetCode.problems.leetCode;
 
 /**
  * Created by koujx  on 2016/1/22.
