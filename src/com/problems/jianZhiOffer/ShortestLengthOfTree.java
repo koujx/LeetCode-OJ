@@ -1,4 +1,4 @@
-package com.problems.niuke;
+package com.problems.jianZhiOffer;
 
 /**
  * Created by koujx on 2016/4/14.

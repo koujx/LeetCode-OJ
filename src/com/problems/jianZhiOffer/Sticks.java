@@ -1,4 +1,4 @@
-package com.problems.niuke;
+package com.problems.jianZhiOffer;
 
 import java.util.ArrayList;
 import java.util.List;

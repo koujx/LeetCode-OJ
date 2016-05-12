@@ -1,4 +1,4 @@
-package com.problems.CodeHunt;
+package com.problems.codeHunt;
 
 /**
  * Created by koujx on 2016/4/19.
