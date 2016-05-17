@@ -51,7 +51,4 @@ public class JumpFloor {
         return 1 << --target;       //2的(target-1)次方，即将1左移(target-1)位。
     }
 
-    public static void main(String[] args) {
-        System.out.println(new JumpFloor().JumpFloor(3));
-    }
 }
