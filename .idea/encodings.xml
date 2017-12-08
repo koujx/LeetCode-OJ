@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
-    <file url="file://$PROJECT_DIR$/src/com/problems/jianZhiOffer/MaxPowerofYi.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/src/com/problems/leetCode/ContainsDuplicate.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/com/problems/leetCode/MajorityElement.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/com/test/javaTest.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/com/test/test.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/kou/problems/jianZhiOffer/MaxPowerofYi.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/kou/problems/leetCode/ContainsDuplicate.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/kou/problems/leetCode/MajorityElement.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/kou/test/javaTest.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/com/kou/test/test.java" charset="GBK" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
