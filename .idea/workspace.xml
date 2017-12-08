@@ -5,128 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8fea5a91-e63e-49b2-87c6-a0b55dc48220" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/82eb68f6-20d2-422f-8b80-80bbce522389.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/kou/shiyanlou/Java8/LambdaInterface.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/kou/shiyanlou/Java8/NewFeatureTester.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/kou/shiyanlou/Java8/StringAdd.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LeetCode-OJ/LeetCode/test/ojcode$ListNode.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LeetCode-OJ/LeetCode/test/ojcode.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/LeetCode-OJ/LeetCode/test/ojtest.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/Algorithm/Sort/BubbleSort.java" afterPath="$PROJECT_DIR$/src/com/kou/Sort/BubbleSort.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/Algorithm/Sort/HeapSort.java" afterPath="$PROJECT_DIR$/src/com/kou/Sort/HeapSort.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/Algorithm/Sort/InsertionSort.java" afterPath="$PROJECT_DIR$/src/com/kou/Sort/InsertionSort.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/Algorithm/Sort/MergeSort.java" afterPath="$PROJECT_DIR$/src/com/kou/Sort/MergeSort.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/Algorithm/Sort/QuickSort.java" afterPath="$PROJECT_DIR$/src/com/kou/Sort/QuickSort.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/Algorithm/Sort/RadixSort.java" afterPath="$PROJECT_DIR$/src/com/kou/Sort/RadixSort.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/Algorithm/Sort/SelectionSort.java" afterPath="$PROJECT_DIR$/src/com/kou/Sort/SelectionSort.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/Algorithm/Sort/ShellSort.java" afterPath="$PROJECT_DIR$/src/com/kou/Sort/ShellSort.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/javaStudy/DesignPatterns/Adapter/Adapter.java" afterPath="$PROJECT_DIR$/src/com/kou/javaStudy/DesignPatterns/Adapter/Adapter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/javaStudy/DesignPatterns/Decorator/AmericanGirl.java" afterPath="$PROJECT_DIR$/src/com/kou/javaStudy/DesignPatterns/Decorator/AmericanGirl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/javaStudy/DesignPatterns/Decorator/ChineseGirl.java" afterPath="$PROJECT_DIR$/src/com/kou/javaStudy/DesignPatterns/Decorator/ChineseGirl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/javaStudy/DesignPatterns/Decorator/Girl.java" afterPath="$PROJECT_DIR$/src/com/kou/javaStudy/DesignPatterns/Decorator/Girl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/javaStudy/DesignPatterns/Decorator/GirlDecorator.java" afterPath="$PROJECT_DIR$/src/com/kou/javaStudy/DesignPatterns/Decorator/GirlDecorator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/javaStudy/DesignPatterns/Decorator/GoldenHair.java" afterPath="$PROJECT_DIR$/src/com/kou/javaStudy/DesignPatterns/Decorator/GoldenHair.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/javaStudy/DesignPatterns/Decorator/Tall.java" afterPath="$PROJECT_DIR$/src/com/kou/javaStudy/DesignPatterns/Decorator/Tall.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/javaStudy/DesignPatterns/Decorator/test.java" afterPath="$PROJECT_DIR$/src/com/kou/javaStudy/DesignPatterns/Decorator/test.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/javaStudy/DesignPatterns/Factory/Human.java" afterPath="$PROJECT_DIR$/src/com/kou/javaStudy/DesignPatterns/Factory/Human.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/javaStudy/DesignPatterns/Factory/HumanFactory1.java" afterPath="$PROJECT_DIR$/src/com/kou/javaStudy/DesignPatterns/Factory/HumanFactory1.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/javaStudy/DesignPatterns/Factory/HumanFactory2.java" afterPath="$PROJECT_DIR$/src/com/kou/javaStudy/DesignPatterns/Factory/HumanFactory2.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/javaStudy/DesignPatterns/Factory/HumanFactory3.java" afterPath="$PROJECT_DIR$/src/com/kou/javaStudy/DesignPatterns/Factory/HumanFactory3.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/javaStudy/DesignPatterns/Factory/Man.java" afterPath="$PROJECT_DIR$/src/com/kou/javaStudy/DesignPatterns/Factory/Man.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/javaStudy/DesignPatterns/Factory/Woman.java" afterPath="$PROJECT_DIR$/src/com/kou/javaStudy/DesignPatterns/Factory/Woman.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/javaStudy/DesignPatterns/Observer/ObserverPattern.java" afterPath="$PROJECT_DIR$/src/com/kou/javaStudy/DesignPatterns/Observer/ObserverPattern.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/javaStudy/DesignPatterns/Singleton/Aunt.java" afterPath="$PROJECT_DIR$/src/com/kou/javaStudy/DesignPatterns/Singleton/Aunt.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/javaStudy/DesignPatterns/Singleton/Daughter.java" afterPath="$PROJECT_DIR$/src/com/kou/javaStudy/DesignPatterns/Singleton/Daughter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/javaStudy/DesignPatterns/Singleton/Husband.java" afterPath="$PROJECT_DIR$/src/com/kou/javaStudy/DesignPatterns/Singleton/Husband.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/javaStudy/DesignPatterns/Singleton/Son.java" afterPath="$PROJECT_DIR$/src/com/kou/javaStudy/DesignPatterns/Singleton/Son.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/javaStudy/DesignPatterns/Singleton/Uncle.java" afterPath="$PROJECT_DIR$/src/com/kou/javaStudy/DesignPatterns/Singleton/Uncle.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/javaStudy/DesignPatterns/Singleton/Wife.java" afterPath="$PROJECT_DIR$/src/com/kou/javaStudy/DesignPatterns/Singleton/Wife.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/javaStudy/Enum/EnumWeekTest.java" afterPath="$PROJECT_DIR$/src/com/kou/javaStudy/Enum/EnumWeekTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/javaStudy/Enum/Week.java" afterPath="$PROJECT_DIR$/src/com/kou/javaStudy/Enum/Week.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/javaStudy/Generic/GenericStack.java" afterPath="$PROJECT_DIR$/src/com/kou/javaStudy/Generic/GenericStack.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/javaStudy/HasStatic.java" afterPath="$PROJECT_DIR$/src/com/kou/javaStudy/HasStatic.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/javaStudy/Swing/MySwingWindow.java" afterPath="$PROJECT_DIR$/src/com/kou/javaStudy/Swing/MySwingWindow.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/javaStudy/Thread/CreateThread.java" afterPath="$PROJECT_DIR$/src/com/kou/javaStudy/Thread/CreateThread.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/javaStudy/Thread/ThreadState.java" afterPath="$PROJECT_DIR$/src/com/kou/javaStudy/Thread/ThreadState.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/javaStudy/Thread/ThreadTest.java" afterPath="$PROJECT_DIR$/src/com/kou/javaStudy/Thread/ThreadTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/problems/CodeHunt/Program.java" afterPath="$PROJECT_DIR$/src/com/kou/problems/CodeHunt/Program.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/problems/Huawei.java" afterPath="$PROJECT_DIR$/src/com/kou/problems/Huawei.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/problems/hihoCoder/HihoCoder.java" afterPath="$PROJECT_DIR$/src/com/kou/problems/hihoCoder/HihoCoder.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/problems/hihoCoder/KMPTest.java" afterPath="$PROJECT_DIR$/src/com/kou/problems/hihoCoder/KMPTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/problems/hihoCoder/LongestPalindromicSubstring.java" afterPath="$PROJECT_DIR$/src/com/kou/problems/hihoCoder/LongestPalindromicSubstring.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/problems/jianZhiOffer/CompareDiamonds.java" afterPath="$PROJECT_DIR$/src/com/kou/problems/jianZhiOffer/CompareDiamonds.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/problems/jianZhiOffer/CoverRectangle.java" afterPath="$PROJECT_DIR$/src/com/kou/problems/jianZhiOffer/CoverRectangle.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/problems/jianZhiOffer/FirstCommonNode.java" afterPath="$PROJECT_DIR$/src/com/kou/problems/jianZhiOffer/FirstCommonNode.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/problems/jianZhiOffer/JumpFloor.java" afterPath="$PROJECT_DIR$/src/com/kou/problems/jianZhiOffer/JumpFloor.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/problems/jianZhiOffer/MaxPowerofYi.java" afterPath="$PROJECT_DIR$/src/com/kou/problems/jianZhiOffer/MaxPowerofYi.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/problems/jianZhiOffer/MaxmumMap.java" afterPath="$PROJECT_DIR$/src/com/kou/problems/jianZhiOffer/MaxmumMap.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/problems/jianZhiOffer/MergeLinkedList.java" afterPath="$PROJECT_DIR$/src/com/kou/problems/jianZhiOffer/MergeLinkedList.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/problems/jianZhiOffer/MinDifference.java" afterPath="$PROJECT_DIR$/src/com/kou/problems/jianZhiOffer/MinDifference.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/problems/jianZhiOffer/MirrorTree.java" afterPath="$PROJECT_DIR$/src/com/kou/problems/jianZhiOffer/MirrorTree.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/problems/jianZhiOffer/Mushroom.java" afterPath="$PROJECT_DIR$/src/com/kou/problems/jianZhiOffer/Mushroom.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/problems/jianZhiOffer/PrintBinaryTree.java" afterPath="$PROJECT_DIR$/src/com/kou/problems/jianZhiOffer/PrintBinaryTree.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/problems/jianZhiOffer/PrintMatrixClockwise.java" afterPath="$PROJECT_DIR$/src/com/kou/problems/jianZhiOffer/PrintMatrixClockwise.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/problems/jianZhiOffer/ProductArray.java" afterPath="$PROJECT_DIR$/src/com/kou/problems/jianZhiOffer/ProductArray.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/problems/jianZhiOffer/ReOrderArray.java" afterPath="$PROJECT_DIR$/src/com/kou/problems/jianZhiOffer/ReOrderArray.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/problems/jianZhiOffer/ShortestLengthOfTree.java" afterPath="$PROJECT_DIR$/src/com/kou/problems/jianZhiOffer/ShortestLengthOfTree.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/problems/jianZhiOffer/StackForMin.java" afterPath="$PROJECT_DIR$/src/com/kou/problems/jianZhiOffer/StackForMin.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/problems/jianZhiOffer/StackToQueue.java" afterPath="$PROJECT_DIR$/src/com/kou/problems/jianZhiOffer/StackToQueue.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/problems/jianZhiOffer/Sticks.java" afterPath="$PROJECT_DIR$/src/com/kou/problems/jianZhiOffer/Sticks.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/problems/jianZhiOffer/StringToNumber.java" afterPath="$PROJECT_DIR$/src/com/kou/problems/jianZhiOffer/StringToNumber.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/problems/jianZhiOffer/TurretAttack.java" afterPath="$PROJECT_DIR$/src/com/kou/problems/jianZhiOffer/TurretAttack.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/problems/leetCode/AddBinary.java" afterPath="$PROJECT_DIR$/src/com/kou/problems/leetCode/AddBinary.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/problems/leetCode/AddDigits.java" afterPath="$PROJECT_DIR$/src/com/kou/problems/leetCode/AddDigits.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/problems/leetCode/AddTwoNumbers.java" afterPath="$PROJECT_DIR$/src/com/kou/problems/leetCode/AddTwoNumbers.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/problems/leetCode/Anagram.java" afterPath="$PROJECT_DIR$/src/com/kou/problems/leetCode/Anagram.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/problems/leetCode/BestTimetoBuyandSellStock.java" afterPath="$PROJECT_DIR$/src/com/kou/problems/leetCode/BestTimetoBuyandSellStock.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/problems/leetCode/ClimbingStairs.java" afterPath="$PROJECT_DIR$/src/com/kou/problems/leetCode/ClimbingStairs.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/problems/leetCode/ContainsDuplicate.java" afterPath="$PROJECT_DIR$/src/com/kou/problems/leetCode/ContainsDuplicate.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/problems/leetCode/Convert.java" afterPath="$PROJECT_DIR$/src/com/kou/problems/leetCode/Convert.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/problems/leetCode/CountingBits.java" afterPath="$PROJECT_DIR$/src/com/kou/problems/leetCode/CountingBits.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/problems/leetCode/DeleteNode.java" afterPath="$PROJECT_DIR$/src/com/kou/problems/leetCode/DeleteNode.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/problems/leetCode/ExcelSheet.java" afterPath="$PROJECT_DIR$/src/com/kou/problems/leetCode/ExcelSheet.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/problems/leetCode/HappyNumber.java" afterPath="$PROJECT_DIR$/src/com/kou/problems/leetCode/HappyNumber.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/problems/leetCode/HouseRober.java" afterPath="$PROJECT_DIR$/src/com/kou/problems/leetCode/HouseRober.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/problems/leetCode/InvertTree.java" afterPath="$PROJECT_DIR$/src/com/kou/problems/leetCode/InvertTree.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/problems/leetCode/LengthOfLongestSubstring.java" afterPath="$PROJECT_DIR$/src/com/kou/problems/leetCode/LengthOfLongestSubstring.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/problems/leetCode/LowestCommonAncestor.java" afterPath="$PROJECT_DIR$/src/com/kou/problems/leetCode/LowestCommonAncestor.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/problems/leetCode/MajorityElement.java" afterPath="$PROJECT_DIR$/src/com/kou/problems/leetCode/MajorityElement.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/problems/leetCode/MaximumDepthofBinaryTree.java" afterPath="$PROJECT_DIR$/src/com/kou/problems/leetCode/MaximumDepthofBinaryTree.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/problems/leetCode/MaximumProduct.java" afterPath="$PROJECT_DIR$/src/com/kou/problems/leetCode/MaximumProduct.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/problems/leetCode/MaximunSubarray.java" afterPath="$PROJECT_DIR$/src/com/kou/problems/leetCode/MaximunSubarray.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/problems/leetCode/MergeLists.java" afterPath="$PROJECT_DIR$/src/com/kou/problems/leetCode/MergeLists.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/problems/leetCode/MoveZeroes.java" afterPath="$PROJECT_DIR$/src/com/kou/problems/leetCode/MoveZeroes.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/problems/leetCode/MultiplyStrings.java" afterPath="$PROJECT_DIR$/src/com/kou/problems/leetCode/MultiplyStrings.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/problems/leetCode/NimGame.java" afterPath="$PROJECT_DIR$/src/com/kou/problems/leetCode/NimGame.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/problems/leetCode/NumberOf1Bits.java" afterPath="$PROJECT_DIR$/src/com/kou/problems/leetCode/NumberOf1Bits.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/problems/leetCode/OddEvenLinkedList.java" afterPath="$PROJECT_DIR$/src/com/kou/problems/leetCode/OddEvenLinkedList.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/problems/leetCode/PlusOne.java" afterPath="$PROJECT_DIR$/src/com/kou/problems/leetCode/PlusOne.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/problems/leetCode/PowerOfNumbers.java" afterPath="$PROJECT_DIR$/src/com/kou/problems/leetCode/PowerOfNumbers.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/problems/leetCode/ProductOfArray.java" afterPath="$PROJECT_DIR$/src/com/kou/problems/leetCode/ProductOfArray.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/problems/leetCode/RemoveDuplicates.java" afterPath="$PROJECT_DIR$/src/com/kou/problems/leetCode/RemoveDuplicates.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/problems/leetCode/RemoveElements.java" afterPath="$PROJECT_DIR$/src/com/kou/problems/leetCode/RemoveElements.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/problems/leetCode/Reverse.java" afterPath="$PROJECT_DIR$/src/com/kou/problems/leetCode/Reverse.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/problems/leetCode/ReverseLinkedList.java" afterPath="$PROJECT_DIR$/src/com/kou/problems/leetCode/ReverseLinkedList.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/problems/leetCode/ReverseString.java" afterPath="$PROJECT_DIR$/src/com/kou/problems/leetCode/ReverseString.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/problems/leetCode/RomanNumbers.java" afterPath="$PROJECT_DIR$/src/com/kou/problems/leetCode/RomanNumbers.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/problems/leetCode/SingleNumber.java" afterPath="$PROJECT_DIR$/src/com/kou/problems/leetCode/SingleNumber.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/problems/leetCode/SwapPairs.java" afterPath="$PROJECT_DIR$/src/com/kou/problems/leetCode/SwapPairs.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/problems/leetCode/TwoSum.java" afterPath="$PROJECT_DIR$/src/com/kou/problems/leetCode/TwoSum.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/problems/leetCode/UglyNumber.java" afterPath="$PROJECT_DIR$/src/com/kou/problems/leetCode/UglyNumber.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/test/Example.java" afterPath="$PROJECT_DIR$/src/com/kou/test/Example.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/test/javaTest.java" afterPath="$PROJECT_DIR$/src/com/kou/test/javaTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/test/test.java" afterPath="$PROJECT_DIR$/src/com/kou/test/test.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/util/ListNode.java" afterPath="$PROJECT_DIR$/src/com/kou/util/ListNode.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/util/Loop.java" afterPath="$PROJECT_DIR$/src/com/kou/util/Loop.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/util/MyQueue.java" afterPath="$PROJECT_DIR$/src/com/kou/util/MyQueue.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/util/Reverse.java" afterPath="$PROJECT_DIR$/src/com/kou/util/Reverse.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/util/TreeNode.java" afterPath="$PROJECT_DIR$/src/com/kou/util/TreeNode.java" />
     </list>
     <ignored path="AccessControlCenter.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -224,11 +104,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Predicate.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Predicate.java" pinned="false" current-in-tab="false">
         <entry file="jar://D:/Program Files/JAVA/jdk1.8.0_121/src.zip!/java/util/function/Predicate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+            <state relative-caret-position="247">
+              <caret line="75" column="71" lean-forward="true" selection-start-line="75" selection-start-column="71" selection-end-line="75" selection-end-column="71" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -270,7 +160,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/javaStudy/DesignPatterns/Factory/Man.java" />
         <option value="$PROJECT_DIR$/src/com/javaStudy/DesignPatterns/Factory/HumanFactory.java" />
         <option value="$PROJECT_DIR$/src/com/javaStudy/DesignPatterns/Factory/HumanFactory2.java" />
         <option value="$PROJECT_DIR$/src/com/javaStudy/AbstractClass/Interface/Eat.java" />
@@ -321,6 +210,7 @@
         <option value="$PROJECT_DIR$/src/com/kou/shiyanlou/Java8/LambdaInterface.java" />
         <option value="$PROJECT_DIR$/src/com/kou/shiyanlou/Java8/StringAdd.java" />
         <option value="$PROJECT_DIR$/src/com/kou/shiyanlou/Java8/NewFeatureTester.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -1209,7 +1099,7 @@
       <workItem from="1512441919219" duration="2086000" />
       <workItem from="1512614136480" duration="2704000" />
       <workItem from="1512702019875" duration="2428000" />
-      <workItem from="1512725927099" duration="21000" />
+      <workItem from="1512725927099" duration="132000" />
     </task>
     <task id="LOCAL-00001" summary="aaa">
       <created>1453856816668</created>
@@ -1372,11 +1262,18 @@
       <option name="project" value="LOCAL" />
       <updated>1463045887029</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="shiyanlou">
+      <created>1512725963924</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1512725963924</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="425160000" />
+    <option name="totallyTimeSpent" value="425271000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1400,12 +1297,12 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2195122" sideWeight="0.44268477" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32978722" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2895553" sideWeight="0.55731523" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2564633" sideWeight="0.44570136" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2564633" sideWeight="0.44570136" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32520324" sideWeight="0.46304676" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15531915" sideWeight="0.48393574" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15531915" sideWeight="0.48393574" order="0" side_tool="false" content_ui="combo" />
       <window_info id="CodotaView" active="false" anchor="right" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.122171946" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962293" sideWeight="0.49196786" order="1" side_tool="false" content_ui="tabs" />
@@ -1467,7 +1364,8 @@
     <MESSAGE value="2016.4.29&#10;1.最大映射&#10;2.木棍游戏" />
     <MESSAGE value="2016.5.4&#10;Design Patterns" />
     <MESSAGE value="2016.5.12&#10;剑指Offer~~&#10;汶川地震八周年，安息~" />
-    <option name="LAST_COMMIT_MESSAGE" value="2016.5.12&#10;剑指Offer~~&#10;汶川地震八周年，安息~" />
+    <MESSAGE value="shiyanlou" />
+    <option name="LAST_COMMIT_MESSAGE" value="shiyanlou" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1560,13 +1458,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/kou/problems/jianZhiOffer/MirrorTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="10" column="12" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/kou/problems/jianZhiOffer/ReOrderArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1923,8 +1814,16 @@
     </entry>
     <entry file="jar://D:/Program Files/JAVA/jdk1.8.0_121/src.zip!/java/util/function/Predicate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+        <state relative-caret-position="247">
+          <caret line="75" column="71" lean-forward="true" selection-start-line="75" selection-start-column="71" selection-end-line="75" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>
