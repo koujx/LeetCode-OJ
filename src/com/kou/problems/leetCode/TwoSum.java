@@ -20,10 +20,10 @@ public class TwoSum {
             int value = target - nums[i];
             if (hashN.containsKey(value)) {
                 index[0] = hashN.get(value);
-                index[1] = i + 1;
+                index[1] = i;
                 break;
             }
-            hashN.put(nums[i], i + 1);
+            hashN.put(nums[i], i);
         }
         return index;
     }
