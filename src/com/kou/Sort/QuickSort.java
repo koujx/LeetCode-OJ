@@ -17,6 +17,32 @@ public class QuickSort {
         }
     }
 
+    public static void quickSort1(int arr[], int low, int high) {
+        int l = low;
+        int h = high;
+        int povit = arr[low];
+        while (l < h) {
+            while (l < h && arr[h] >= povit) {
+                h--;
+            }
+            while (l < h && arr[l] <= povit) {
+                l++;
+            }
+            if (l < h) {
+                int temp = arr[h];
+                arr[h] = arr[l];
+                arr[l] = temp;
+            }
+        }
+
+        int temp = arr[h];
+        arr[h] = arr[low];
+        arr[low] = temp;
+
+        if (l > low) quickSort1(arr, low, l - 1);
+        if (h < high) quickSort1(arr, l + 1, high);
+    }
+
     public static void quickSort(int arr[], int low, int high) {
         int l = low;
         int h = high;
@@ -44,5 +70,18 @@ public class QuickSort {
         }
         if (l > low) quickSort(arr, low, l - 1);
         if (h < high) quickSort(arr, l + 1, high);
+    }
+
+    public static void main(String[] args) {
+        int[] nums = new int[10];
+        for (int i = 0; i < nums.length; i++) {
+            nums[i] = Double.valueOf(Math.random() * 100).intValue();
+            System.out.println(nums[i]);
+        }
+        System.out.println("========Sort========");
+        quickSort(nums);
+        for (int i = 0; i < nums.length; i++) {
+            System.out.println(nums[i]);
+        }
     }
 }
