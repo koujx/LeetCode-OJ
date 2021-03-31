@@ -19,8 +19,12 @@ public class AddBinary {
         String result = "", aString = a, bString = b;
         int add = 0;
         int length = (a.length() > b.length()) ? a.length() : b.length();
-        while (length > aString.length()) aString = "0" + aString;
-        while (length > bString.length()) bString = "0" + bString;
+        while (length > aString.length()) {
+            aString = "0" + aString;
+        }
+        while (length > bString.length()) {
+            bString = "0" + bString;
+        }
         for (int i = length - 1; i >= 0; i--) {
             String aa = aString.substring(i, i + 1);
             String bb = bString.substring(i, i + 1);
@@ -44,7 +48,9 @@ public class AddBinary {
             }
             result = sum + result;
         }
-        if (add != 0) result = String.format("1%s", result);
+        if (add != 0) {
+            result = String.format("1%s", result);
+        }
         return result;
     }
 }
